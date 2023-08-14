@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Admin</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body style="background-color: darkolivegreen;">
+    <legend style="text-align: center;"><h2>Seller Admin</h2></legend>
+    <fieldset>
+    <div>
+        <form id="seller">
+            <label for="selling price">Selling Price:</label><br>
+            <input type="number" name="price" id="priceTag" placeholder="enter price"><br>
+            <label for="product name">Product Name:</label><br>
+            <input type="text" name="product" id="ProductTag" placeholder="product name"><br>
+            <label for="category">Select category:</label><br>
+            <input type="text" name="category" id="categoryTag" placeholder="write category">        
+           <button type="submit">Add Item</button>
+       </form>
+    </div>
+    </fieldset>
+    <fieldset>
+        
+    <div>
+        <h4 style="text-align:center;">Order Products</h4>
+        <div>
+            <ul id="EleProduct"></ul>
+        </div>
+    </div>
+    </fieldset>
+    <script src="seller.js"></script>
+</body>
+</html>
